@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import DisplayPosts from './components/displayPosts/DisplayPosts';
-import CreatePostForm from './components/createPostForm/CreatePostForm';
-
+import DisplayPosts from './components/DisplayPosts/DisplayPosts';
+import CreatePostForm from './components/CreatePostForm/CreatePostForm';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
       const [posts, setPosts] = useState([{id:1, name: "Bob", post: "message"}, {id:2, name: "Joe", post: "message"}])
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div>
+      <NavBar/>
       <CreatePostForm posts={posts} addNewPost={addNewPost}/>
       <DisplayPosts posts={posts}/>
     </div>

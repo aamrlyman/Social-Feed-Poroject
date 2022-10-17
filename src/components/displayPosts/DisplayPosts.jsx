@@ -1,9 +1,9 @@
-import Post from "../post/Post";
+import Post from "../Post/Post";
 
 const DisplayPosts = (props) => {
     return (
         <div>
-            {props.posts.map(post => <Post key={post.id} post={post}/>)}
+            {props.posts.slice(0).reverse().map(post => <Post key={post.id} post={post}/>)}
         </div>
         );
 

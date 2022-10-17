@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const CreatePostForm = (props) => {
     const [name, setName] = useState('');
@@ -7,15 +7,20 @@ const CreatePostForm = (props) => {
     function handleSubmit (event){
         event.preventDefault();
         let newPost = {
-            id: props.posts.length,
+            id: (props.posts.length + 1),
             name: name,
             post: post
         }
+        props.addNewPost(newPost)
+        setName('');
+        setPost('');
         
     }
+    
+    // useEffect(() => [name = setName(''), post = setPost('')], [onSubmit])
 
     return ( 
-        <form>
+        <form onSubmit={handleSubmit}>
                 <label>Name</label>
                 <input type="text" value={name} name="name" onChange={(event) => setName(event.target.value)}/>
                 <label>Post</label>
