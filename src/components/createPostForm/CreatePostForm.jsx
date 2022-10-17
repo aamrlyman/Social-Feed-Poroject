@@ -7,6 +7,7 @@ const CreatePostForm = (props) => {
     function handleSubmit (event){
         event.preventDefault();
         let newPost = {
+            id: props.posts.length,
             name: name,
             post: post
         }
