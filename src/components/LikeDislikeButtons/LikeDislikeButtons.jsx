@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./LikeDislikeButtons.css"
+// import "../../assets/thumbsUp.png"
 
 const LikeDislikeButtons = (props) => {
     const [isLiked, setIsLiked] = useState(null);
