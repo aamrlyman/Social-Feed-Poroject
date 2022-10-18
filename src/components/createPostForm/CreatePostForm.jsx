@@ -17,8 +17,6 @@ const CreatePostForm = (props) => {
         
     }
     
-    // useEffect(() => [name = setName(''), post = setPost('')], [onSubmit])
-
     return ( 
         <form onSubmit={handleSubmit}>
                 <label>Name</label>

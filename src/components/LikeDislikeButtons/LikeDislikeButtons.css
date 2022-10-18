@@ -1,0 +1,25 @@
+div > button{
+    color: white;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 6%;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,0, .19); 
+}
+
+.inactive {
+    background-color: grey;
+}
+
+.active{
+    background-color: green;
+}
+
+.dislikeActive{
+    background-color: red;
+}
