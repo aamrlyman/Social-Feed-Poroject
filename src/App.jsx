@@ -4,7 +4,7 @@ import CreatePostForm from './components/CreatePostForm/CreatePostForm';
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
-      const [posts, setPosts] = useState([{id:1, name: "Bob", post: "message"}, {id:2, name: "Joe", post: "message"}])
+      const [posts, setPosts] = useState([{id:1, name: "Bob", post: "You're Cool!"}, {id:2, name: "Joe", post: "No You aren't!"}])
 
   function addNewPost (post){
     let tempPosts = [...posts, post];
