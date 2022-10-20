@@ -16,9 +16,11 @@ function App() {
 
   return (
     <div>
-      <NavBar/>
-      <CreatePostForm posts={posts} addNewPost={addNewPost}/>
-      <DisplayPosts posts={posts}/>
+      <div className="container">
+          <NavBar/>
+          <CreatePostForm posts={posts} addNewPost={addNewPost}/>
+          <DisplayPosts posts={posts}/>
+      </div>
     </div>
   );
 }

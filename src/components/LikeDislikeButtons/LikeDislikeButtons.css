@@ -1,11 +1,13 @@
 div > button{
-    color: white;
+    color: black;
     padding: .5rem 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    border-radius: 6%;
+    border-radius: 20%;
+    border: none;
+    background-color: none
 }
 
 button:hover {
@@ -13,7 +15,7 @@ button:hover {
 }
 
 .inactive {
-    background-color: grey;
+    background-color: white;
 }
 
 .active{
@@ -22,4 +24,14 @@ button:hover {
 
 .dislikeActive{
     background-color: red;
+}
+
+#black{
+    color:black;
+}
+#red{
+    color:red;
+}
+#green{
+    color:green;
 }
