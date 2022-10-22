@@ -30,8 +30,13 @@ const LikeDislikeButtons = (props) => {
     return (
 
         <div>
-            <i class="fa-solid fa-thumbs-up" value={isLiked} onClick={handleClickLike} id={likeColor} ></i>
+            <button type="button" class="btn btn-link">
+                <i class="fa-solid fa-thumbs-up" value={isLiked} onClick={handleClickLike} id={likeColor} ></i>
+            </button>
+            <button type="button" class="btn btn-link">
             <i class="fa-solid fa-thumbs-down" value={isLiked} onClick={handleClickDislike} id={dislikeColor} ></i>
+            </button>
+
         </div>
       );
 }

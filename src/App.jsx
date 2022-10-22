@@ -8,8 +8,8 @@ import "./App.css"
 
 function App() {
       const result = format(new Date(), 'MM/dd/yyyy, H:mm:ss' )
-      const [posts, setPosts] = useState([{id:1, name: "Bob", post: "You're Cool!", date: result }, 
-                                          {id:2, name: "Joe", post: "No You aren't!", date: result}])
+      const [posts, setPosts] = useState([{id:1, name: "Bob", post: "I like learning to code at devCodeCamp. Its a really great place to learn and improve.", date: result }, 
+                                          {id:2, name: "Joe", post: "Me too! Python is super fun and so is javascript!", date: result}])
 
   function addNewPost (post){
     let tempPosts = [post,...posts];
