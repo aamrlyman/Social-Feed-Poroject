@@ -1,0 +1,13 @@
+
+.DisplayPosts{
+    background-color: white;
+    border-top: solid grey 2px;
+    border-left: solid grey 2px;
+    border-right: solid grey 2px;
+    margin: auto;
+    margin-top: 1.5em;
+    width: 70%;
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

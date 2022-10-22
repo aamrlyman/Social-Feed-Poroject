@@ -1,14 +1,14 @@
-nav { 
-    height: 60px;
+nav{
+    height: 100px;
+    width: 100%;
     background-color: white;
-
+    margin-bottom: 1em;
+    /* border: solid black; */
 }
 
 h1.nav { 
-    margin-top: 1rem;
-
+    margin-top: .875em;
+    margin-left: 1em;
+    color: #4f9b81;
 }
 
-.small, small{
-    font-size: 1em;
-}

@@ -1,0 +1,44 @@
+
+button.btn.btn-primary {
+    margin-top: 3.5rem;
+    margin-left: 1em;
+    width: 10em;
+    border-radius: 30px;
+    font-weight: 600;
+    height: 40px;
+}
+
+.form-group{
+    background-color: white;
+    position: relative;
+    border: solid grey 2px;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    width: 70%;
+}
+
+.formItem {
+    display: flex;
+    margin-top: 1em;
+}
+.formItem1 {
+    display: flex;
+    margin-top: 1em;
+}
+
+
+label {
+    width: 5%;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+input.form-control{
+    width: 77%;
+}
+
+textarea.form-control {
+    width: 77%;
+}

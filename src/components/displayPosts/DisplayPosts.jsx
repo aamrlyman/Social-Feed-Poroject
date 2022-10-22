@@ -1,9 +1,9 @@
 import Post from "../Post/Post";
-
+import "./DisplayPosts.css"
 const DisplayPosts = (props) => {
     return (
-        <div>
-            {props.posts.slice(0).reverse().map(post => <Post key={post.id} post={post}/>)}
+        <div class= "DisplayPosts">
+            {props.posts.map(post => <Post key={post.id} post={post}/>)}
         </div>
         );
 

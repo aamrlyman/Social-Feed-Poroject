@@ -1,7 +1,11 @@
+import "./NavBar.css"
+
 const NavBar = (props) => {
 
     return (
-        <nav>Social<small className='text-muted'>Feed</small></nav>
+        <nav className="nav">
+          <h1 class="nav">Social<span className='text-muted'>Feed</span></h1>
+        </nav>
       );
 }
  
