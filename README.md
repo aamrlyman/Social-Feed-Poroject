@@ -69,3 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+Here's the documentation showing an example of setting class names using a model property: https://reactjs.org/docs/faq-styling.html
+
+The difficulty is that if you're dealing with multiple classes, the logic for building that classNames string gets a little gnarly. In those cases they recommend you use libraries like classnames (https://www.npmjs.com/package/classnames#usage-with-reactjs) or  clsx (https://www.npmjs.com/package/clsx). Those will take a model as an argument and render it into a string that works well for classnames.
+
+Cheers,
